@@ -27,13 +27,14 @@ export default class Portfolio extends Component {
     }
 
     let titleStyle = {
-      "fontSize": '6rem'
+      "fontSize": '6rem',
+      "textAlign": "center"
     }
     return(
       <div className="card app-body offset col-lg-10 col-lg-offset-3" style={portfolio}>
         <div className="card-block">
           <h4 className="card-title" style={titleStyle}>Portfolio</h4>
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p className="card-text">Full Stack Web Developer | React | Node.js adorer | Mongo DB Lover</p>
           <p className="card-text"></p>
           <a id="git" href="https://github.com/bpriode" className="card-link"><i className="fa fa-github fa-2x"></i></a>
         </div>
