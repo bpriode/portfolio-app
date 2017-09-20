@@ -13,28 +13,39 @@ body {
 .home{
   text-align: center;
   height: 900px;
-  color: #B3B5BB;
-  background-image: url("../styles/janko-seboek-17854.jpg");
+  background-image: url("../styles/StockSnap_TWDEPDVQUR.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   box-shadow:rgba(0, 0, 0, 0.22) -2px 9px 5px 0px;
-  text-shadow: 3px 3px 5px #114B5F;
-  opacity: 0.7;
+
+}
+
+.home h3{
+  color: #114B5F;
+  line-height: 1.5;
+  text-shadow: 1px 1px 2px #FFFAE3;
+  font-size: 3rem;
 }
 
 #title{
-  font-size: 15rem;
-  align-self: baseline;
+  font-size: 13rem;
+  color: #114B5F;
   font-family: 'Dancing Script', cursive;
-  margin-top: 100px;
+  text-shadow: 4px 4px 5px #5D576B;
+  padding-top: 30px;
 }
 
 #aboutCard{
   margin: 50px;
 }
 
+.card{
+  width: 55%;
+  line-height: 2.0;
+}
 .card a{
   padding:20px;
+  margin-left: 10px;
   font-size: 20px;
   color: #5D576B;
 }
@@ -43,6 +54,18 @@ body {
   padding:20px;
   font-size: 20px;
   color: #5D576B;
+}
+
+.home a{
+  padding:20px;
+  font-size: 20px;
+  color: #114B5F;
+}
+
+.home a:visited{
+  padding:20px;
+  font-size: 20px;
+  color: #114B5F;
 }
 
 li a{

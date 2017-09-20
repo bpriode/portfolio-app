@@ -35,7 +35,7 @@ export default class Portfolio extends Component {
           <h4 className="card-title" style={titleStyle}>Portfolio</h4>
           <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           <p className="card-text"></p>
-          <a id="git" href="https://github.com/bpriode" className="card-link"><i className="fa fa-github fa-2x" aria-hidden="true"></i></a>
+          <a id="git" href="https://github.com/bpriode" className="card-link"><i className="fa fa-github fa-2x"></i></a>
         </div>
       </div>
     )
