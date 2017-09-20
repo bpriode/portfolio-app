@@ -1,8 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './styles/index.css';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
+
+import Home from './components/Home'
+import Portfolio from './components/Portfolio'
+import About from './components/About'
+import BaseLayout from './components/BaseLayout'
+
+
+
+ReactDOM.render(
+  <BrowserRouter>
+  <BaseLayout>
+   <Switch>
+     <Route path="/portfolio" component={Portfolio} />
+     <Route path="/aboutUs" component={About} />
+     <Route path="/" component={Home}/>
+   </Switch>
+
+   </BaseLayout>
+
+ </BrowserRouter>
+
+,document.getElementById('root'));
 registerServiceWorker();
