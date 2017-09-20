@@ -6,30 +6,39 @@ export default class BaseLayout extends Component {
   render(){
 
     let navTitle = {
-      "fontFamily": "Arizonia",
-      "fontSize": "180%"
+      "fontSize": "180%",
     }
+    let navBar = {
+      "backgroundColor": "#114B5F",
+      "margin": "0px",
+    }
+
+    let aTag = {
+      "color": "#FFFAE3"
+    }
+
     return (
       <div className="container-fluid nav">
-        <nav className="row navbar navbar-inverse">
+        <div className="fixed-top">
+        <nav className="row navbar" style={navBar}>
           <div className="container-fluid">
             <div className="navbar-header">
               <ul className="nav navbar-nav">
                 <li style={navTitle}>
-                <NavLink to="/">Home</NavLink>
+                <NavLink to="/" style={aTag}>Home</NavLink>
                 </li>
                 <li>
-                <NavLink to="/about">My Developer Story</NavLink>
+                <NavLink to="/about" style={aTag}>My Developer Story</NavLink>
                 </li>
                 <li>
-                <NavLink to="/portfolio">Portfolio</NavLink>
+                <NavLink to="/portfolio" style={aTag}>Portfolio</NavLink>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
+        </div>
         {this.props.children}
-
       </div>
     );
   }

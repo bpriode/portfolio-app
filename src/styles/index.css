@@ -1,5 +1,30 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #B3B5BB;
+}
+
+
+.home{
+  text-align: center;
+  height: 900px;
+  color: #B3B5BB;
+  background-image: url("../styles/janko-seboek-17854.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow:rgba(0, 0, 0, 0.22) -2px 9px 5px 0px;
+  text-shadow: 3px 3px 5px #114B5F;
+  opacity: 0.7;
+}
+
+#title{
+  font-size: 15rem;
+  align-self: baseline;
+  font-family: 'Dancing Script', cursive;
+  margin-top: 100px;
 }
