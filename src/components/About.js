@@ -3,15 +3,16 @@ import React, { Component } from 'react';
 export default class About extends Component {
   render() {
     return(
-    <div className="card app-body offset col-lg-10 col-lg-offset-1">
+    <div className="card app-body offset col-lg-10 col-lg-offset-4">
       <div className="card">
         <img className="card-img-top" src="https://avatars3.githubusercontent.com/u/29993968?v=4" alt=""/>
         <div className="card-block">
-          <h4 className="card-title">Card title</h4>
-          <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="https://www.linkedin.com/in/bethany-priode/" className="card-link">Linkedin</a>
-          <a href="https://bethanypriode.wordpress.com/" className="card-link">Blog</a>
+          <h4 className="card-title">Bethany Priode</h4>
+          <h6 className="card-subtitle mb-2 text-muted">Lover of Language and Puzzles</h6>
+          <p className="card-text">At first glance, my history does not suggest a path to web development.</p>
+          <a href="https://www.linkedin.com/in/bethany-priode/" className="card-link"><i className="fa fa-linkedin fa-2x" aria-hidden="true"></i></a> |
+          <a href="https://bethanypriode.wordpress.com/" className="card-link"><i className="fa fa-wordpress fa-2x" aria-hidden="true"></i></a> |
+          <a href="mailto:bpriode@gmail.com" className="card-link"><i className="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>

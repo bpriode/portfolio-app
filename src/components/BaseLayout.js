@@ -13,9 +13,7 @@ export default class BaseLayout extends Component {
       "margin": "0px",
     }
 
-    let aTag = {
-      "color": "#FFFAE3"
-    }
+
 
     return (
       <div className="container-fluid nav">
@@ -25,13 +23,13 @@ export default class BaseLayout extends Component {
             <div className="navbar-header">
               <ul className="nav navbar-nav">
                 <li style={navTitle}>
-                <NavLink to="/" style={aTag}>Home</NavLink>
+                <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                <NavLink to="/about" style={aTag}>My Developer Story</NavLink>
+                <NavLink to="/about">My Developer Story</NavLink>
                 </li>
                 <li>
-                <NavLink to="/portfolio" style={aTag}>Portfolio</NavLink>
+                <NavLink to="/portfolio">Portfolio</NavLink>
                 </li>
               </ul>
             </div>

@@ -28,3 +28,39 @@ body {
   font-family: 'Dancing Script', cursive;
   margin-top: 100px;
 }
+
+#aboutCard{
+  margin: 50px;
+}
+
+.card a{
+  padding:20px;
+  font-size: 20px;
+  color: #5D576B;
+}
+
+.card a:visited{
+  padding:20px;
+  font-size: 20px;
+  color: #5D576B;
+}
+
+li a{
+  color: #FFFAE3;
+}
+
+li a:active{
+  background-color: #B3B5BB;
+}
+
+#git{
+  color: #FFFAE3;
+  padding: 10px;
+  font-size: 26px;
+}
+
+#git:visited{
+  color: #FFFAE3;
+  padding: 10px;
+  font-size: 26px;
+}
