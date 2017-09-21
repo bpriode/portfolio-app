@@ -10,65 +10,60 @@ body {
   background-color: #B3B5BB;
 }
 
-
 .home{
   width: 100%;
   display: flex;
   text-align: center;
-  height: 900px;
+  height: 700px;
   background-image: url("../styles/StockSnap_TWDEPDVQUR.jpg");
   background-size: cover;
   background-position: top;
-  box-shadow:rgba(0, 0, 0, 0.22) -2px 9px 5px 0px;
-
-}
-
-.home h3{
-  color: #114B5F;
-  line-height: 1.5;
-  text-shadow: 1px 1px 2px #FFFAE3;
-  font-size: 3rem;
 }
 
 #title{
-  font-size: 13rem;
+  font-size: 8rem;
   color: #114B5F;
   font-family: 'Dancing Script', cursive;
-  text-shadow: 4px 4px 5px #5D576B;
-  padding-top: 30px;
+  text-shadow: 2px 2px 3.5px #5D576B;
+  padding-top: 10px;
 }
 
-#aboutCard{
-  margin: 50px;
+.home h3{
+  color: #5D576B;
+  line-height: 1.5;
+  text-shadow: 1px 1px 2px #FFFAE3;
+  font-size: 2rem;
 }
 
 .card{
-  width: 55%;
+  width: 100%;
   line-height: 2.0;
 }
 .card a{
   padding:20px;
   margin-left: 10px;
-  font-size: 20px;
+  font-size: 15px;
   color: #5D576B;
 }
 
 .card a:visited{
   padding:20px;
-  font-size: 20px;
+  font-size: 15px;
   color: #5D576B;
 }
 
 .home a{
-  padding:20px;
+  padding:10px;
   font-size: 20px;
-  color: #114B5F;
+  color: #FFFAE3;
+  margin-top: 50px;
 }
 
 .home a:visited{
-  padding:20px;
+  padding:10px;
   font-size: 20px;
-  color: #114B5F;
+  color: #FFFAE3;
+  margin-top: 50px;
 }
 
 li a{
@@ -101,19 +96,31 @@ h4{
   text-align: center;
 }
 
-.portfolio{
-  display: flex;
-  justify-content: center;
+
+#titleStyle{
+  font-size: 6rem;
+  text-align: center;
 }
+
+#portfolioCard {
+  background-color: #5D576B;
+  width: 100%;
+  height: 500px;
+  color: #B3B5BB;
+  margin-top: 10px;
+  font-size: 2rem;
+}
+
 
 .portfolio p{
   text-align: left;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 .portfolio h3{
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
+  line-height: 2.0;
   padding-top: 20%;
 }
 
@@ -122,9 +129,195 @@ h4{
 }
 
 .portfolio a{
-  margin-left: 7%;
+  margin-left: 2%;
 }
 
 #repoLink{
   font-size: 14px;
+}
+
+@media screen and ( min-width: 600px ){
+    nav a{
+        flex-basis: 45%;
+    }
+    #title{
+      font-size: 13rem;
+      color: #114B5F;
+      font-family: 'Dancing Script', cursive;
+      text-shadow: 4px 4px 5px #5D576B;
+      padding-top: 10px;
+    }
+    .home{
+      width: 100%;
+      display: flex;
+      text-align: center;
+      height: 900px;
+      background-image: url("../styles/StockSnap_TWDEPDVQUR.jpg");
+      background-size: cover;
+      background-position: top;
+      box-shadow:rgba(0, 0, 0, 0.22) -2px 9px 5px 0px;
+    }
+    .home h3{
+      color: #114B5F;
+      line-height: 1.5;
+      text-shadow: 1px 1px 2px #FFFAE3;
+      font-size: 3rem;
+    }
+    .home a{
+      color: #114B5F;
+    }
+
+    .home a:visited{
+      color: #114B5F;
+    }
+    .card{
+      width: 55%;
+    }
+    .card a{
+      padding:20px;
+      margin-left: 10px;
+      font-size: 20px;
+      color: #5D576B;
+    }
+
+    .card a:visited{
+      padding:20px;
+      font-size: 20px;
+      color: #5D576B;
+    }
+
+    #titleStyle{
+      font-size: 6rem;
+      text-align: center;
+    }
+
+    #portfolioCard{
+      background-color: #5D576B;
+      width: 60%;
+      height: 500px;
+      color: #B3B5BB;
+      margin-top: 100px;
+      font-size: 2rem;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .portfolio{
+      display: flex;
+      justify-content: center;
+    }
+
+    .portfolio p{
+      text-align: left;
+      margin-left: 10%;
+    }
+
+    .portfolio h3{
+      text-align: center;
+      font-size: 20px;
+      padding-top: 20%;
+    }
+
+    .portfolio h2{
+      color: #114B5F;
+    }
+
+    .portfolio a{
+      margin-left: 7%;
+    }
+
+    #repoLink{
+      font-size: 14px;
+    }
+
+}
+
+@media screen and ( min-width: 1200px ){
+  #title{
+    font-size: 13rem;
+    color: #114B5F;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 4px 4px 5px #5D576B;
+    padding-top: 30px;
+  }
+  .home{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    height: 900px;
+    background-image: url("../styles/StockSnap_TWDEPDVQUR.jpg");
+    background-size: cover;
+    background-position: top;
+    box-shadow:rgba(0, 0, 0, 0.22) -2px 9px 5px 0px;
+  }
+  .home h3{
+    color: #114B5F;
+    line-height: 1.5;
+    text-shadow: 1px 1px 2px #FFFAE3;
+    font-size: 3rem;
+  }
+  .home a{
+    color: #114B5F;
+  }
+
+  .home a:visited{
+    color: #114B5F;
+  }
+  .card{
+    width: 55%;
+  }
+  .card a{
+    padding:20px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #5D576B;
+  }
+
+  .card a:visited{
+    padding:20px;
+    font-size: 20px;
+    color: #5D576B;
+  }
+
+  #titleStyle{
+    font-size: 6rem;
+    text-align: center;
+  }
+
+  #portfolioCard{
+    background-color: #5D576B;
+    width: 60%;
+    height: 500px;
+    color: #B3B5BB;
+    margin-top: 100px;
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .portfolio{
+    display: flex;
+    justify-content: center;
+  }
+
+  .portfolio p{
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  .portfolio h3{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20%;
+  }
+
+  .portfolio h2{
+    color: #114B5F;
+  }
+
+  .portfolio a{
+    margin-left: 7%;
+  }
+
+  #repoLink{
+    font-size: 14px;
+  }
 }

@@ -18,30 +18,15 @@ export default class Portfolio extends Component {
 }
   render() {
 
-    let portfolio = {
-      "backgroundColor": "#5D576B",
-      "width": "60%",
-      "height": "500px",
-      "color": "#B3B5BB",
-      "marginTop": '100px',
-      "fontSize": '2rem',
-      "marginLeft": "10px",
-      "marginRight": "10px"
-    }
-
-    let titleStyle = {
-      "fontSize": '6rem',
-      "textAlign": "center"
-    }
     return(
       <div className="portfolio">
-        <div className="card app-body offset col-lg-10" style={portfolio}>
-          <h4 className="card-title" style={titleStyle}>Portfolio</h4>
+        <div className="card app-body offset col-lg-10" id="portfolioCard">
+          <h4 className="card-title" id="titleStyle">Portfolio</h4>
           <p className="card-text">Full Stack Web Developer | React | Node.js Fan | Mongo DB Lover</p>
           <a id='git' href="https://github.com/bpriode" className="card-link"><i className="fa fa-github fa-2x" ></i></a>
+          <hr/>
           <h3>All my project repositories can be found on my GitHub account. I have featured two of my more in-depth full stack applications here.</h3>
         </div>
-        <hr/>
         <div className="card">
         <h2>Flipcards</h2>
         <a id="repoLink"href='https://github.com/bpriode/flipcards'>Flipcards GitHub Repository</a>

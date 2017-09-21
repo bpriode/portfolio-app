@@ -17,7 +17,6 @@ export default class BaseLayout extends Component {
 
     return (
       <div className="container-fluid nav">
-        <div className="fixed-top">
         <nav className="row navbar" style={navBar}>
           <div className="container-fluid">
             <div className="navbar-header">
@@ -35,7 +34,6 @@ export default class BaseLayout extends Component {
             </div>
           </div>
         </nav>
-        </div>
         {this.props.children}
       </div>
     );
