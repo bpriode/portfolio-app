@@ -100,3 +100,31 @@ p{
 h4{
   text-align: center;
 }
+
+.portfolio{
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio p{
+  text-align: left;
+  margin-left: 10%;
+}
+
+.portfolio h3{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20%;
+}
+
+.portfolio h2{
+  color: #114B5F;
+}
+
+.portfolio a{
+  margin-left: 7%;
+}
+
+#repoLink{
+  font-size: 14px;
+}

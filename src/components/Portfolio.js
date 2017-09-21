@@ -20,10 +20,13 @@ export default class Portfolio extends Component {
 
     let portfolio = {
       "backgroundColor": "#5D576B",
-      "width": "50%",
+      "width": "60%",
+      "height": "500px",
       "color": "#B3B5BB",
       "marginTop": '100px',
-      "fontSize": '2rem'
+      "fontSize": '2rem',
+      "marginLeft": "10px",
+      "marginRight": "10px"
     }
 
     let titleStyle = {
@@ -31,11 +34,25 @@ export default class Portfolio extends Component {
       "textAlign": "center"
     }
     return(
-      <div className="card app-body offset col-lg-10 col-lg-offset-3" style={portfolio}>
-        <div className="card-block">
+      <div className="portfolio">
+        <div className="card app-body offset col-lg-10" style={portfolio}>
           <h4 className="card-title" style={titleStyle}>Portfolio</h4>
           <p className="card-text">Full Stack Web Developer | React | Node.js Fan | Mongo DB Lover</p>
-          <a id="git" href="https://github.com/bpriode" className="card-link"><i className="fa fa-github fa-2x"></i></a>
+          <a id='git' href="https://github.com/bpriode" className="card-link"><i className="fa fa-github fa-2x" ></i></a>
+          <h3>All my project repositories can be found on my GitHub account. I have featured two of my more in-depth full stack applications here.</h3>
+        </div>
+        <hr/>
+        <div className="card">
+        <h2>Flipcards</h2>
+        <a id="repoLink"href='https://github.com/bpriode/flipcards'>Flipcards GitHub Repository</a>
+        <p>A flipcard study tool to remove the hassle of needing multiple study materials. Flipcards allows a user to create an account, login, create-edit-delete decks of cards, and take a quiz in which the cards randomly sort themselves.
+        </p>
+        <a href="https://imgflip.com/gif/1w9nu2"><img src="https://i.imgflip.com/1w9nu2.gif" alt=""/></a>
+
+        <h2>Wander</h2>
+        <a id="repoLink"href='https://github.com/bpriode/social_network'>Wander GitHub Repository</a>
+        <p>Social sharing platform to create connections with the outdoors and fellow outdoor lovers. Wander allows a user to create an account, login, create a post and delete their own posts, see other user's posts, and like posts of other users.</p>
+        <a href="https://imgflip.com/gif/1w9oni"><img src="https://i.imgflip.com/1w9oni.gif" alt=""/></a>
         </div>
       </div>
     )
