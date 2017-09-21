@@ -34,8 +34,7 @@ export default class Portfolio extends Component {
       <div className="card app-body offset col-lg-10 col-lg-offset-3" style={portfolio}>
         <div className="card-block">
           <h4 className="card-title" style={titleStyle}>Portfolio</h4>
-          <p className="card-text">Full Stack Web Developer | React | Node.js adorer | Mongo DB Lover</p>
-          <p className="card-text"></p>
+          <p className="card-text">Full Stack Web Developer | React | Node.js Fan | Mongo DB Lover</p>
           <a id="git" href="https://github.com/bpriode" className="card-link"><i className="fa fa-github fa-2x"></i></a>
         </div>
       </div>

@@ -5,12 +5,15 @@
 body {
   margin: 0;
   padding: 0;
+  width:100%;
   font-family: sans-serif;
   background-color: #B3B5BB;
 }
 
 
 .home{
+  width: 100%;
+  display: flex;
   text-align: center;
   height: 900px;
   background-image: url("../styles/StockSnap_TWDEPDVQUR.jpg");
@@ -88,4 +91,12 @@ li a:active{
   padding: 10px;
   font-size: 26px;
   margin-left: 45%;
+}
+
+p{
+  text-align: center;
+}
+
+h4{
+  text-align: center;
 }

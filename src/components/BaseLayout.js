@@ -10,7 +10,7 @@ export default class BaseLayout extends Component {
     }
     let navBar = {
       "backgroundColor": "#114B5F",
-      "margin": "0px",
+      'margin': "0px",
     }
 
 
