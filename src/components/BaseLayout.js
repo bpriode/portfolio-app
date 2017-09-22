@@ -12,9 +12,6 @@ export default class BaseLayout extends Component {
       "backgroundColor": "#114B5F",
       'margin': "0px",
     }
-
-
-
     return (
       <div className="container-fluid nav">
         <nav className="row navbar" style={navBar}>
