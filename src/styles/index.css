@@ -108,9 +108,8 @@ h4{
   height: 500px;
   color: #B3B5BB;
   margin-top: 10px;
-  font-size: 2rem;
+  font-size: 1rem;
 }
-
 
 .portfolio p{
   text-align: left;
@@ -126,15 +125,17 @@ h4{
 
 .portfolio h2{
   color: #114B5F;
-  margin-left: 10%;
+  margin-left: 5%;
+  font-size: 14px;
 }
 
-.portfolio a{
-  margin-left: 2%;
+#gif{
+  margin-left: 0px;
 }
 
 #repoLink{
   font-size: 14px;
+  margin-left: 0%;
 }
 
 @media screen and ( min-width: 600px ){
@@ -202,6 +203,7 @@ h4{
       margin-left: 10px;
       margin-right: 10px;
     }
+
     .portfolio{
       display: flex;
       justify-content: center;
@@ -209,21 +211,19 @@ h4{
 
     .portfolio p{
       text-align: left;
-      margin-left: 10%;
+      margin-left: 5%;
     }
 
     .portfolio h3{
       text-align: center;
-      font-size: 15px;
+      font-size: 20px;
       padding-top: 20%;
     }
 
     .portfolio h2{
       color: #114B5F;
-    }
-
-    .portfolio a{
-      margin-left: 7%;
+      margin-left: 4%;
+      font-size: 20px;
     }
 
     #repoLink{
@@ -301,7 +301,7 @@ h4{
 
   .portfolio p{
     text-align: left;
-    margin-left: 10%;
+    margin-left: 5%;
   }
 
   .portfolio h3{
@@ -312,13 +312,17 @@ h4{
 
   .portfolio h2{
     color: #114B5F;
+    margin-left: 5%;
+    font-size: 20px;
   }
 
-  .portfolio a{
-    margin-left: 7%;
+  #gif{
+    margin-left: 2%;
   }
+
 
   #repoLink{
     font-size: 14px;
+    margin-left: 2%;
   }
 }
