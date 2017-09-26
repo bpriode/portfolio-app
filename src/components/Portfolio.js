@@ -36,7 +36,7 @@ export default class Portfolio extends Component {
 
         <h2>Wander</h2>
         <a id="repoLink" target='_blank' rel="noopener noreferrer" href='https://github.com/bpriode/social_network'>Wander GitHub Repository</a>
-        <p>Social sharing platform to create connections with the outdoors and fellow outdoor lovers. Wander allows a user to create an account, login, create a post and delete their own posts, see other user's posts, and like posts of other users.</p>
+        <p>Social sharing platform to create connections with the outdoors and fellow outdoor lovers. Wander allows a user to create an account, login, create and delete their own posts, see other user's posts, and like posts of other users.</p>
         <a id='gif' target='_blank' rel="noopener noreferrer" href="https://github.com/bpriode/social_network"><img src="https://i.imgflip.com/1w9oni.gif" alt=""/></a>
         </div>
       </div>
