@@ -10,7 +10,7 @@ export default class About extends Component {
         <div className="card-block">
           <h4 className="card-title">Bethany Priode</h4>
           <h4 className="card-subtitle mb-2 text-muted">Lover of Language and Critical Thinking</h4>
-          <p className="card-text">After teaching middle school for 4 years in Knoxville, TN, life is moving me to Chattanooga, TN. I thought a move was the perfect chance to try somthing new, something challenging. My deep love for language and solving complex problems, led me to web development. The Iron Yard gave me the opportunity to pusue my intrest experience during a three month coding bootcamp. I studied both Front-End and Back-End fundamentals, as well as a specilization in React. </p>
+          <p className="card-text">I taught middle school math and English for 4 years before life moved me from Knoxville to Chattanooga, Tennessee. The move was the ideal time to try something new and challenging, and my love of language and complex problem solving led me to web development. A 3-month long coding bootcamp through the The Iron Yard allowed me to pursue my new interest and gain experience. I studied both Front-End and Back-End fundamentals, as well as a specialization in React.  </p>
           <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/bethany-priode/" className="card-link"><i className="fa fa-linkedin fa-2x"></i></a> |
           <a target='_blank' rel="noopener noreferrer" href="https://bethanypriode.wordpress.com/" className="card-link"><i className="fa fa-wordpress fa-2x"></i></a> |
           <a href="mailto:bpriode@gmail.com" className="card-link"><i className="fa fa-envelope-o fa-2x" ></i></a> |

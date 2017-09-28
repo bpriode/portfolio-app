@@ -11,7 +11,7 @@ export default class Home extends Component {
             Bethany Priode
         </div>
         <h3 className="header-text">
-        Former middle school teacher who turned a passion for in-depth challenges and creativity into a passion for web development
+        Former middle school teacher who turned a love for in-depth challenges and creativity into a passion for web development
         </h3>
       <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/bethany-priode/" className="card-link"><i className="fa fa-linkedin fa-2x"></i></a> |
       <a target='_blank' rel="noopener noreferrer" href="https://bethanypriode.wordpress.com/" className="card-link"><i className="fa fa-wordpress fa-2x"></i></a> |
